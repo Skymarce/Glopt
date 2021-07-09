@@ -1,15 +1,11 @@
 .promo {
     padding-top: 23px;
     background: url('../../img/main_photo.jpg') center center / cover no-repeat;
-    &__logo {
-        
-        display: block;
-        z-index: 2;
-    }
 }
 
 nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 96px 596px 342px;
     justify-content: space-between;
     ul {
         display: flex;
