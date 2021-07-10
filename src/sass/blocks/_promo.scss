@@ -34,6 +34,7 @@
         &:hover {
             color: $main-color;
             border-bottom: 1px solid;;
+            transition: 0.5s;
         }
     }
     &__contacts {
