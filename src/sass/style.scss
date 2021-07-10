@@ -5,7 +5,7 @@
 @import 'base/mixins';
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed';
     margin: 0;
     padding: 0;
 }
@@ -23,3 +23,4 @@
 }
 
 @import 'blocks/promo';
+@import 'blocks/advantages';
