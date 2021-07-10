@@ -7,13 +7,61 @@
         height: 100px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     &__menu {
         display: flex;
         justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+        &-item {
+            border-right: 1px dotted rgb(255, 255, 255);
+            padding-right: 15px;
+            padding-left: 15px;
+            &:nth-child(7) {
+                display: none;
+            }
+        }
+    }
+    &__link {
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
     }
     &__contacts {
         display: flex;
         justify-content: space-between;
+    }
+    &__phone {
+        justify-content: flex-end;
+        padding-right: 20px;
+        &-text {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: right;
+        }
+        a {
+            font-size: 19px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: right;
+            text-decoration: none;
+        }
+    }
+    &__btn {
+        width: 160px;
+        height: 45px;
+        background-color: $main-color;
+        border: none;
+        border-radius: 26px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
     }
 }
