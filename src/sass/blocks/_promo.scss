@@ -73,9 +73,8 @@
         text-transform: uppercase;
         color: #ffffff;
         &:hover {
-            background-color: rgba($color: gray, $alpha: 1.0);
-            border: 1px solid #ffffff;
-            transition: 0.5s;
+            background-color: #dc5238;;
+            transition: 0.6s;
         }
     }
     &__subheader {
@@ -158,9 +157,8 @@
             color: #ffffff;
             margin-top: 39px;
             &:hover {
-                background-color: rgba($color: gray, $alpha: 1.0);
-                border: 1px solid #ffffff;
-                transition: 0.5s;
+                background-color: #dc5238;;
+                transition: 0.6s;
             }
         }
     }
