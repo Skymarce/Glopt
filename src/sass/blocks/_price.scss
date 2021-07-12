@@ -121,20 +121,55 @@
             text-align: center;
         }
         &-wrapper {
+            position: relative;
             height: 241px;
-            padding-top: 20px;
         }
         &-icon {
             position: relative;
-            width: 102px;
-            height: 102px;
-            border-radius: 100%;
-            border: 1px solid $main-color;
-            margin: 0 auto;
+            width: 122px;
+            height: 122px;
+            left: 45%;
+            top: 48px;
+            z-index: 6;
+            &-stroke {
+                position: absolute;
+                width: 102px;
+                height: 102px;
+                border-radius: 100%;
+                background-color: #ffffff;
+                border: 1px solid $main-color;
+                outline: 10px solid #ffffff;
+                top: 18%;
+                left: 9%;
+                z-index: 4;
+            }
             img {
                 position: absolute;
                 left: 22%;
                 top: 16%;
+            }
+        } 
+        &-btn {
+            position: relative;
+            padding: 0 10px;
+            button {
+                position: absolute;
+                width: 180px;
+                height: 45px;
+                background-color: $main-color;
+                border: none;
+                border-radius: 26px;
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #ffffff;
+                left: 480px;
+                top: -25px;
+                outline: 10px solid #ffffff;
+                &:hover {
+                    background-color: #dc5238;;
+                    transition: 0.6s;
+                }
             }
         }
     }
