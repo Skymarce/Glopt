@@ -1,7 +1,9 @@
 .instruction {
     min-height: 454px;
+    background-color: #f3f3f3;
     &__wrapper {
         padding-top: 51px;
+        padding-bottom: 46px;
     }
     &__title {
         font-size: 26px;
@@ -14,10 +16,16 @@
     &__items {
         padding-top: 36px;
         display: grid;
-        grid-template-columns: repeat(4, 250px);
-        grid-template-rows: repeat(2, minmax(125px, auto));
+        grid-template-columns: 250px 250px 250px 250px;
         justify-content: space-between;
         row-gap: 47px;
+    }
+    &__items2 {
+        padding-top: 24px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        justify-content: center;
+        column-gap: 47px;
     }
     &__item {
         display: grid;

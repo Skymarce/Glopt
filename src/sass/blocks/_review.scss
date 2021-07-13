@@ -1,0 +1,35 @@
+.review {
+    min-height: 470px;
+    &__wrapper {
+        padding-top: 51px;
+        padding-bottom: 65px;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__divider {
+        padding-top: 20px;
+        div {
+            box-sizing: border-box;
+            width: 148px;
+            height: 1px;
+            background-color: $main-color;
+            margin: 0 auto;
+        }
+    }
+    &__subtitle {
+        padding-top: 17px;
+        width: 881px;
+        margin: 0 auto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #2e2e2e;
+        text-align: center;
+    }
+}
