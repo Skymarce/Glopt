@@ -123,6 +123,7 @@
         &-wrapper {
             position: relative;
             height: 241px;
+            bottom: 45px;
         }
         &-icon {
             position: relative;
@@ -151,7 +152,6 @@
         } 
         &-btn {
             position: relative;
-            padding: 0 10px;
             button {
                 position: absolute;
                 width: 180px;

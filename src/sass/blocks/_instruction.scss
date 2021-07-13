@@ -1,0 +1,47 @@
+.instruction {
+    min-height: 454px;
+    &__wrapper {
+        padding-top: 51px;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__items {
+        padding-top: 36px;
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: repeat(2, minmax(125px, auto));
+        justify-content: space-between;
+        row-gap: 47px;
+    }
+    &__item {
+        display: grid;
+        grid-template-rows: 57px minmax(55px, auto);
+        row-gap: 12px;
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subheader {
+        font-size: 16px;
+        line-height: 15px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr {
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+        line-height: 18px;
+    }
+}
