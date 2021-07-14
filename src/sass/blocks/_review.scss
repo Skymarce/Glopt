@@ -1,5 +1,8 @@
+
+
 .review {
     min-height: 470px;
+    padding: 0;
     &__wrapper {
         padding-top: 51px;
         padding-bottom: 65px;
@@ -32,4 +35,23 @@
         color: #2e2e2e;
         text-align: center;
     }
+    &__full {
+        display: block;
+        margin: 0 auto;
+    }
+    &__pic {
+        display: block;
+        width: 603px;
+        margin: 0 auto;
+        .name {
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+        }
+        .comment {
+            font-size: 14.1px;
+            font-weight: 300;
+        }
+    }    
 }
