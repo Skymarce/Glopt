@@ -36,22 +36,96 @@
         text-align: center;
     }
     &__full {
+        position: relative;
         display: block;
         margin: 0 auto;
+        padding-top: 31px;
+
     }
     &__pic {
         display: block;
         width: 603px;
         margin: 0 auto;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
         .name {
+            padding-top: 19px;
             font-size: 18px;
             line-height: 22px;
             font-weight: 700;
             color: #3a3a3a;
+            text-align: center;
         }
         .comment {
-            font-size: 14.1px;
-            font-weight: 300;
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: justify;
         }
     }    
+}
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.review__full .slick-arrow{
+    position: absolute;
+    top: 27%;
+    z-index: 10;
+    font-size: 0;
+    width: 14px;
+    height: 46px;
+    border: none;
+}
+
+.review__full .slick-arrow.slick-prev{
+    left: 460px;
+    top: 70px;
+    background: url('../../icons/rectangle_left.png') 0 0 / 100% no-repeat;
+}
+
+.review__full .slick-arrow.slick-next{
+    right: 460px;
+    top: 70px;
+    background: url('../../icons/rectangle_right.png') 0 0 / 100% no-repeat;
 }

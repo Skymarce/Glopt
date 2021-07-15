@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.review__full').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1
-      });
+      arrows:true,
+      adaptiveHeight:true,
+      speed: 1000,
+    });
 });
