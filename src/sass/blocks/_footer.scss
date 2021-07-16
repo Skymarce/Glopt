@@ -1,0 +1,120 @@
+*a {
+    cursor: pointer;
+}
+
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    &__wrapper {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+    &__top {
+        display: grid;
+        grid-template-columns: 523px 345px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__glopt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+        justify-content: flex-end;
+        padding-right: 20px;
+        &-text {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: right;
+        }
+        a {
+            font-size: 19px;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: right;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__btn {
+        width: 160px;
+        height: 45px;
+        background-color: $main-color;
+        border: none;
+        border-radius: 26px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        &:hover {
+            background-color: #dc5238;;
+            transition: 0.6s;
+        }
+    }
+    &__divider {
+        margin-top: 20px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, .3);
+        opacity: 0.3;           
+    }
+    &__low {
+        padding-top: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo {
+            opacity: .6;
+            padding-left: 10px;
+        }
+    }
+    &__crbase {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__creator {
+        opacity: .6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            color: rgba(255, 255, 255, .3);
+        }
+    }
+    &__policy {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: $main-color;
+        cursor: pointer;
+        &:hover {
+            color: rgba(255, 255, 255, .3);
+        }
+    }
+    &__creating {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

@@ -1,7 +1,57 @@
 .map {
+    position: relative;
     min-height: 500px;
     background: url('../../img/map.png') center center / cover no-repeat;
     &__wrapper {
         padding-top: 171px;
+        .romb {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            transform: rotate(45deg);
+            left: 625px;
+            top: 232px;
+            z-index: 1;
+        }
+    }
+    &__marker {
+        position: relative;
+        padding-left: 348px;
+        top: 50px;
+        img {
+            position: absolute;
+        }
+        .logo {
+            top: 11px;
+            left: 359px;
+        }
+    }
+    &__address {
+        position: absolute;
+        background-color: #fff;
+        width: 300px;
+        height: 158px;
+        left: 645px;
+        z-index: 2;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: $main-color;
+        padding-top: 27px;
+        padding-left: 27px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        padding-left: 27px;
+        a {
+            font-size: 14px;
+            font-weight: 300;
+            color: $main-color;
+        }
     }
 }
