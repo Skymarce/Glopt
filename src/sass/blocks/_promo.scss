@@ -21,8 +21,8 @@
             border-right: 1px dotted rgb(255, 255, 255);
             padding-right: 15px;
             padding-left: 15px;
-            &:nth-child(7) {
-                display: none;
+            &:last-child {
+                border-right: none;
             }
         }
     }
