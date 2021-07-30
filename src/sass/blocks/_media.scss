@@ -51,6 +51,22 @@
             }
         }
     }
+    .price {
+        &__items {
+            grid-template-columns: repeat(3, 267px);
+            row-gap: 40px;
+        }
+        &__consultation {
+            &-icon {
+                left: 44%;
+            }
+            &-btn {
+                button {
+                    left: 400px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -128,6 +144,30 @@
             row-gap: 40px;
         }    
     }
+    .price {
+        &__items {
+            grid-template-columns: repeat(2, 267px);
+            justify-content: center;
+            column-gap: 40px;
+        }
+        &__consultation {
+            &-icon {
+                left: 42%;
+            }
+            &-btn {
+                button {
+                    left: 272px;
+                }
+            }
+        }
+        &__form {
+            grid-template-columns: repeat(3, 200px);
+            input {
+                width: 200px;
+                height: 40px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -186,6 +226,39 @@
             font-size: 13px;
         }
     }       
+    .price {
+        &__items {
+            gap: 20px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__consultation {
+            &-icon {
+                left: 39%;
+            }
+            &-btn {
+                button {
+                    left: 185px;
+                }
+            }
+        }
+        &__form {
+            height: 290px;
+            grid-template-columns: repeat(1, 270px);
+            grid-template-rows: repeat(3, 45px);
+            row-gap: 10px;
+            justify-content: center;
+            align-content: center;
+            input {
+                width: 270px;
+                height: 45px;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -262,6 +335,38 @@
         }
         &__item {
             row-gap: 15px;
+        }
+    }
+    .agents {
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .price {
+        &__items {
+            grid-template-columns: repeat(1, 267px);
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__consultation {
+            &-icon {
+                top: 45%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }
+            &-btn {
+                button {
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
         }
     }
 }
