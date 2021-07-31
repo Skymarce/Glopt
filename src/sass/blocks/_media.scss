@@ -67,6 +67,11 @@
             }
         }
     }
+    .instruction {
+        &__items {
+            grid-template-columns: repeat(3, 250px);
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -168,6 +173,11 @@
             }
         }
     }
+    .instruction {
+        &__items {
+            grid-template-columns: repeat(3, 240px);
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -227,6 +237,9 @@
         }
     }       
     .price {
+        &__wrapper {
+            padding-bottom: 190px;
+        }
         &__items {
             gap: 20px;
         }
@@ -367,6 +380,14 @@
                     transform: translate(-50%, -50%);
                 }
             }
+        }
+    }
+    .managers {
+        &__title {
+            font-size: 24px;
+        }
+        &__subtitle {
+            font-size: 15px;
         }
     }
 }
