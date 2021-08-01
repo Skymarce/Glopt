@@ -3,7 +3,7 @@
     background: url('../../img/fourth_photo.jpg') center center / cover no-repeat;
     &__wrapper {
         padding-top: 62px;
-        width: 896px;
+        max-width: 896px;
         min-height: 297px;
         margin: 0 auto;
         &-title {
@@ -12,7 +12,7 @@
             background-color: #25333c;
         }
         &-form {
-            width: 896px;
+            max-width: 896px;
             min-height: 229px;
             background: rgba(255, 255, 255, 0.7);
         }
