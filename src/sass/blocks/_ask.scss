@@ -42,6 +42,8 @@
         column-gap: 4px;
         row-gap: 6px;
         padding-top: 17px;
+    }
+    &__input {
         input {
             width: 270px;
             height: 45px;
@@ -53,8 +55,10 @@
             font-weight: 400;
             outline: none;
         }
+    }
+    &__textarea {
+        grid-column: 1 / 4;
         textarea {
-            grid-column: 1 / 4;
             width: 100%;
             min-height: 73px;
             background-color: #ffffff;

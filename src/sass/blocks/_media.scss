@@ -80,6 +80,20 @@
     .review__full .slick-arrow.slick-next{
         right: 385px;
     }
+    .map {
+        &__marker {
+            padding-left: 266px;
+            .logo {
+                left: 277px;
+            }
+        }
+        &__address {
+            left: 410px;
+        }
+        .romb {
+            left: 50%;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -309,8 +323,12 @@
     }
     .ask {
         &__form {
-            grid-template-columns: 270px;
+            grid-template-columns: repeat(1, 270px);
             grid-template-rows: 47px 47px 47px minmax(73px, auto);
+            justify-content: center;
+        }
+        &__input {
+            grid-column: 1 / 1;
             input {
                 width: 270px;
             }
