@@ -80,20 +80,6 @@
     .review__full .slick-arrow.slick-next{
         right: 385px;
     }
-    .map {
-        &__marker {
-            padding-left: 266px;
-            .logo {
-                left: 277px;
-            }
-        }
-        &__address {
-            left: 410px;
-        }
-        .romb {
-            left: 50%;
-        }
-    }
 }
 
 @media (max-width: 992px) {
@@ -472,5 +458,16 @@
     
     .review__full .slick-arrow.slick-next{
         right: 60px;
+    }
+    .map {
+        &__wrapper {
+            grid-template-columns: 300px;
+        }
+        &__marker {
+            display: none;
+        }
+        &__address {
+            width: 300px;
+        }
     }
 }
