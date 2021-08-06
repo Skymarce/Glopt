@@ -201,6 +201,14 @@
             }
         }
     }
+    .footer {
+        &__title {
+            display: none;
+        }
+        &__top {
+            grid-template-columns: 96px 345px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -468,6 +476,46 @@
         }
         &__address {
             width: 300px;
+        }
+    }
+    .footer {
+        &__top {
+            grid-template-columns: 300px;
+            justify-content: center;
+        }
+        &__glopt {
+            display: none;
+        }
+        &__phone {
+            &-text {
+                font-size: 12px;
+            }
+            a {
+                font-size: 15px;
+            }
+        }
+        &__btn {
+            height: 40px;
+        }
+        &__low {
+            display: grid;
+            grid-template-columns: 300px;
+            row-gap: 15px;
+            justify-content: center;
+        }
+        &__crbase {
+            justify-content: center;
+        }
+        &__creator {
+            text-align: center;
+            font-size: 10px;
+        }
+        &__policy {
+            font-size: 10px;
+            text-align: center;
+        }
+        &__creating {
+            font-size: 10px;
         }
     }
 }
